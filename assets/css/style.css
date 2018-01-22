@@ -21,6 +21,101 @@ body {
     font-family: 'roboto', sans-serif;
     font-weight: 300;
 }
+/* Add some codes for implimenting owl-carousel peoperty on page  */
+
+.owl-wrapper-outer{
+	background:none ;
+	box-shadow:none ;
+	border:none ;
+	border-radius:0px ;
+}
+.owl-carousel, .owl-controls{
+	background:none ;
+	margin:0 ;
+}
+
+.slideOwl{
+	position:relative;
+}
+.slideshowOwl img{
+	width:100%;
+}
+.slide-detailOwl{
+	left: 0;
+    position: absolute;
+    right: 0;
+	z-index:1;
+	top:auto;
+	bottom:7%;
+	text-align:center;
+}
+.slide-detailOwl img{
+	margin:0 auto;
+	width:11.5%;
+}
+.slide-detailOwl h4{
+	font-size:50px;
+	color:#fff;
+	font-weight:700;
+	margin:10px 0;
+	text-transform:uppercase;
+}
+.slide-detailOwl p{
+	font-size:16px;
+	color:#fff;
+	margin: 0 10% 25px;
+}
+.slide-detailOwl .btn-primary{
+	width:190px;
+}
+.slide-detailOwl .btn-primary + .btn-primary{
+	margin-left:20px;
+}
+.slideshowOwl .owl-pagination {
+    top: auto;
+	bottom:3px;
+	position:absolute;
+	right:0;
+	left:0;
+}
+.slideshowOwl .owl-controls .owl-page{
+	margin:0;
+	padding:0 6px;
+	text-align:center;
+}
+.slideshowOwl .owl-controls .owl-page span {
+    background: #fff;
+	border:3px solid transparent;
+	height:10px; 
+	width:10px;
+	box-shadow:none;
+}
+.slideshowOwl .owl-controls .owl-page.active span {
+    background: transparent;
+	border:3px solid #fff;
+	width:12px;
+	height:12px;
+}
+.slideOwl .owl-controls{
+	margin:0 auto;
+	max-width:1140px;
+}
+.slideshowOwl .owl-buttons .owl-prev{
+	left:60px; 
+}
+.slideshowOwl .owl-buttons .owl-next{
+	right:60px;
+}
+.slideshowOwl .owl-buttons .owl-prev, .slideshowOwl .owl-buttons .owl-next{
+	color:#fff;
+}
+.slideshowOwl .owl-buttons .owl-prev i, .slideshowOwl .owl-buttons .owl-next i{
+	font-size:60px;
+	margin:0;
+}
+.slideshowOwl .owl-buttons div {
+    opacity:1 ;  */
+	/* End of my implimentation--*/
 
 /*==========================================
 PRE LOADER 
@@ -656,6 +751,7 @@ a.navbar-brand.our_logo{
 
 .slider{
 	background:url(../images/bannerbg.jpg) center center no-repeat;
+	
 	background-size:cover;
 }
 .main_slider {
@@ -1016,3 +1112,4 @@ font-size: 6rem;
 	text-decoration: none;
 
 }
+

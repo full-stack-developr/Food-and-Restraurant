@@ -56,3 +56,14 @@ jQuery(document).ready(function ($) {
  new WOW().init();
 
 });
+/*slideshow script code start here*/
+	$('.slideshowOwl').owlCarousel({
+		items: 1,
+		autoPlay: 5000,
+		singleItem: true,
+		navigation: true,
+		navigationText: ['<i class="icofont icofont-scroll-bubble-left fa1"></i>', '<i class="icofont icofont-scroll-bubble-right fa2"></i>'],
+		pagination: true,
+	});
+	/*slideshow script code end here*/
+	
